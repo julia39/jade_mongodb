@@ -24,6 +24,7 @@ router.get('/newuser',function(req,res){
     res.render('newuser',{title:'Add New User'});
 });
 
+//添加用户
 router.post('/adduser',function(req,res){
     var db=req.db;
 
